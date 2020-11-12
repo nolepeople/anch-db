@@ -23,7 +23,7 @@ def banner():
 .-. . . .-. . .   .-.  .-.
 |-| |\| |   |-| - |  ) |-)
 ` ' ' ` `-' ' `   `-'  `-' [@wibuzone_id]\033[97m
-anime charaters database
+anime characters database
             """)
 
 class anch_db(object):

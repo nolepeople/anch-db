@@ -1,10 +1,11 @@
 #!/usr/bin/python3
 #coded by natsuya (https://github.com/nolepeople)
 
-import os,sys,re
+import os
+import sys
+import re
 import logging
 import requests
-import json
 import bs4
 import time
 

@@ -115,8 +115,7 @@ class getotherinfo(anch_db):
     - voiced by    : {}
     - year release : {}
     - relations    : {}
-    - profile      : {} 
-    """.format(
+    - profile      : {}     """.format(
             self.rl_["Id"],self.rl_['From Anime'],self.rl_['Media Type'],
             self.rl_["Voiced By"],self.rl_["Year Release"],
             self.rl_["Relations"],self.rl_["Profile"]
@@ -125,10 +124,10 @@ class getotherinfo(anch_db):
 
 
 class main(object):
+    banner()
 
     def __init__(self,query):
         anch_db.__init__(self,query)
-        banner()
         self.result = anch_db(query).getbasicinfo();del self.result[-1]
         if len(self.result) >= 1:
             logging.info("[INFO] {} found result of {} \n".format(len(self.result),query))
@@ -144,7 +143,10 @@ class main(object):
 
 
 if __name__=="__main__":
-   main(sys.argv[1])
+   try:
+      main(sys.argv[1])
+   except IndexError:
+        sys.exit("usage: .py <query>\nwhat is the name on your mind?\n")
 
 
 

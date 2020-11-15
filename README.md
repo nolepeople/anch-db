@@ -11,8 +11,8 @@ handled with the express js module here with python can be free without limitati
 web based ? <a href="wbzncode.herokuapp.com/AnimeCharactersDatabase">wibuzone.code</a><br>
 You can use it as a module in lib/ moduled.py if you can't compose it for your website. 
 
-^ from modulename import anch_db 
-^ anchdb.getinfo(your query)<br>
+^ from modulename import anch_db <br>
+^ anchdb.getinfo(your query)
 
 with a return as below
 ![Screenshot](.img/yo.png)

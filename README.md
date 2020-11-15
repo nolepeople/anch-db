@@ -8,11 +8,11 @@ handled with the express js module here with python can be free without limitati
 ## Example Result
 ![Screenshot](.img/image2.png)
 
-web based ? <a href="wbzncode.herokuapp.com/AnimeCharactersDatabases">wibuzone.code</a>
-Change or delete the code in the file associated with the caller's output for the terminal 
-
-
-You can change this cli version into a module for your website with a return as below
+web based ? <a href="wbzncode.herokuapp.com/AnimeCharactersDatabase">wibuzone.code</a><br>
+You can use it as a module in lib/ moduled.py if you can't compose it for your website. 
+* from modulename import anch_db 
+* anchdb.getinfo(your query)
+with a return as below
 ![Screenshot](.img/image3.png)
 ## module needed
 * pip3 install requests

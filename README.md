@@ -12,6 +12,7 @@ web based ? <a href="wbzncode.herokuapp.com/AnimeCharactersDatabase">wibuzone.co
 You can use it as a module in lib/ moduled.py if you can't compose it for your website. 
 * from modulename import anch_db 
 * anchdb.getinfo(your query)
+<br>
 with a return as below
 ![Screenshot](.img/yo.png)
 ## module needed

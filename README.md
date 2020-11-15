@@ -13,7 +13,7 @@ You can use it as a module in lib/ moduled.py if you can't compose it for your w
 * from modulename import anch_db 
 * anchdb.getinfo(your query)
 with a return as below
-![Screenshot](.img/image3.png)
+![Screenshot](.img/yo.png)
 ## module needed
 * pip3 install requests
   

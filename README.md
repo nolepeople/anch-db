@@ -8,7 +8,6 @@ handled with the express js module here with python can be free without limitati
 ## Example Result
 ![Screenshot](.img/image2.png)
 
-web based ? <a href="wbzncode.herokuapp.com/AnimeCharactersDatabase">wibuzone.code</a><br>
 You can use it as a module in lib/ moduled.py if you can't compose it for your website. 
 
 ^ from modulename import anch_db <br>

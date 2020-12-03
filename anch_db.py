@@ -6,7 +6,6 @@ import sys
 import re
 import logging
 import requests
-import bs4
 import time
 
 logging.basicConfig(format="%(message)s",level=logging.INFO)
